@@ -1,0 +1,87 @@
+body{
+    background-color:lightblue;
+    
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+#whole{
+    margin: 0%;
+    display:inline;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    width: 30%;
+    height: 100%;
+    margin-top: 10%;
+}
+#content1 input{
+  
+    padding: 20px;
+    border-radius: 40px 40px 40px 40px;
+    margin-left: 20%;
+    margin-top: 5px;
+}
+#content1 button{
+    border:0;
+    outline: 0;
+    border-radius: 50%;
+    width: 60px;
+    height:60px;
+    margin-top:5px;
+    margin-right: 10px;
+}
+#content1 img{
+    height: 30px;
+    width: 30px;
+    outline: 0;
+    border: 0%;
+}
+#sun img{
+    height: 20%;
+    width:30%;
+    margin-left:34%;
+}
+#degree{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    color: white;
+    text-align: center;
+}
+#humidity img{
+    width:70px;
+    height: 70px;
+}
+
+#humidity{
+    display: flex ;
+    align-items: center;
+    
+    color: white;
+}
+#humidity div{
+    display: inline;
+    align-items: center;
+}
+#windspeed img{
+    height: 20%;
+    width:30%;
+}
+#windspeed{
+    display: flex ;
+    align-items: center;
+    
+    color: white;
+    margin-left: 28%;
+    
+}
+#windspeed div{
+    display: inline;
+    align-items: center;
+}
+#wh{
+    display: flex;
+    align-items: center;
+}
